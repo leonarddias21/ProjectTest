@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PaymentsTestSuite" verbose="1">
+
+	<test name="PaymentTest">
+		<classes>
+			<class name="com.traqade.tests.payments.PaymentTest">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CampaignTestSuite" verbose="1">
+
+	<test name="TasksTest">
+		<classes>
+			<class name="com.traqade.tests.campaign.CampaignTest">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,87 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MemberTestSuite" verbose="1">
+
+	<test name="MemberTest">
+		<classes>
+			<class name="com.traqade.tests.member.MemberTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="MemberListingTest">
+		<classes>
+			<class name="com.traqade.tests.member.MemberListingTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="TransferTest">
+		<classes>
+			<class name="com.traqade.tests.member.TransferTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="FreezeTest">
+		<classes>
+			<class name="com.traqade.tests.member.FreezeTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="AddFollowUpTest">
+		<classes>
+			<class name="com.traqade.tests.member.AddFollowUpTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="UpgradePackageTest">
+		<classes>
+			<class name="com.traqade.tests.member.UpgradePackageTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="DeletePackageTest">
+		<classes>
+			<class name="com.traqade.tests.member.DeletePackageTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="DeactivateMemberTest">
+		<classes>
+			<class name="com.traqade.tests.member.DeactivateMemberTest">
+			</class>
+		</classes>
+	</test>	
+
+<test name="ReactivateMemberTest">
+		<classes>
+			<class name="com.traqade.tests.member.ReactivateMemberTest">
+			</class>
+		</classes>
+	</test>	
+	
+	<test name="MarkAttendanceTest">
+		<classes>
+			<class name="com.traqade.tests.member.MarkAttendanceTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="MemberDeleteTest">
+		<classes>
+			<class name="com.traqade.tests.member.MemberDeleteTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="AdvancedFiltersTest">
+		<classes>
+			<class name="com.traqade.tests.member.AdvancedFiltersTest">
+			</class>
+		</classes>
+	</test>
+</suite>

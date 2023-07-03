@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LeadTestSuite" verbose="1">
+
+	<test name="LeadsTest">
+		<classes>
+			<class name="com.traqade.tests.leads.LeadsTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="QuickSignupTest">
+		<classes>
+			<class name="com.traqade.tests.leads.QuickSignupTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LeadConvertTest">
+		<classes>
+			<class name="com.traqade.tests.leads.LeadConvertTest">
+			</class>
+		</classes>
+	</test>
+</suite>

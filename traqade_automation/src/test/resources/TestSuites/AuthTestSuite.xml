@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AuthTestSuite" verbose="1">
+
+	<test name="LoginTest">
+		<classes>
+			<class name="com.traqade.tests.auth.LoginTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LogoutTest">
+		<classes>
+
+			<class name="com.traqade.tests.auth.LogoutTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="DemoRequestTest">
+		<classes>
+
+			<class name="com.traqade.tests.auth.DemoRequestTest">
+			</class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,82 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PersonalTrainingTestSuite" verbose="1">
+
+	<test name="CreatePersonalTrainingTest">
+		<classes>
+			<class name="com.traqade.tests.personalTraining.CreatePersonalTrainingTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="RepeatTimeSlotTest">
+		<classes>
+			<class name="com.traqade.tests.personalTraining.RepeatTimeSlotTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ReScheduleAppointmentCancelTest">
+		<classes>
+			<class name="com.traqade.tests.personalTraining.ReScheduleAppointmentCancelTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ScheduleAppointmentRepeatTest">
+		<classes>
+			<class name="com.traqade.tests.personalTraining.ScheduleAppointmentRepeatTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ScheduleSlotRepeatCancelTest">
+		<classes>
+			<class name="com.traqade.tests.personalTraining.ScheduleSlotRepeatCancelTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="StaffInactiveDropdownTest">
+		<classes>
+			<class name="com.traqade.tests.personalTraining.StaffInactiveDropdownTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ValidationMemberNotFoundTest">
+		<classes>
+			<class name="com.traqade.tests.personalTraining.ValidationMemberNotFoundTest">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="ValidationPackageExpireTest">
+		<classes>
+			<class name="com.traqade.tests.personalTraining.ValidationPackageExpireTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="VirtualTrainingCreationTest">
+		<classes>
+			<class name="com.traqade.tests.personalTraining.VirtualTrainingCreationTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="VirtualTrainingScheduleCancelTest">
+		<classes>
+			<class name="com.traqade.tests.personalTraining.VirtualTrainingScheduleCancelTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ZeroValidAppointmentTest">
+		<classes>
+			<class name="com.traqade.tests.personalTraining.ZeroValidAppointmentTest">
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="StaffTestSuite" verbose="1">
+
+	<test name="StaffTest">
+		<classes>
+			<class name="com.traqade.tests.staff.StaffTest">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

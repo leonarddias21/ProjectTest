@@ -1,0 +1,10 @@
+<suite name="PackageTestSuite" verbose="1">
+
+	<test name="PackageTest">
+		<classes>
+			<class name="com.traqade.tests.Package.PackageTest">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

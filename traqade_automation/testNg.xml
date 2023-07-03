@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<!-- <class name="com.traqade.tests.leads.LeadsTest" />
+			<class name="com.traqade.tests.leads.QuickSignupTest" />
+			<class name="com.traqade.tests.leads.LeadConvertTest" />
+			<class name="com.traqade.tests.auth.LoginTest" />
+			<class name="com.traqade.tests.staff.StaffTest" />
+			<class name="com.traqade.tests.auth.LogoutTest" />
+			<class name="com.traqade.tests.member.MemberTest" />
+			<class name="com.traqade.tests.auth.DemoRequestTest" />
+			<class name="com.traqade.tests.personalTraining.CreatePersonalTrainingTest" />
+			<class name="com.traqade.tests.personalTraining.ReScheduleAppointmentCancelTest" />
+			<class name="com.traqade.tests.personalTraining.ScheduleAppointmentRepeatTest" />
+			<class name="com.traqade.tests.personalTraining.ScheduleSlotRepeatCancelTest" />
+			<class name="com.traqade.tests.personalTraining.StaffInactiveDropdownTest" />
+			<class name="com.traqade.tests.personalTraining.ValidationMemberNotFoundTest" />
+			<class name="com.traqade.tests.personalTraining.ValidationPackageExpireTest" />
+			<class name="com.traqade.tests.personalTraining.VirtualTrainingCreationTest" />
+			<class name="com.traqade.tests.personalTraining.VirtualTrainingScheduleCancelTest" />
+			<class name="com.traqade.tests.personalTraining.ZeroValidAppointmentTest" />
+			<class name="com.traqade.tests.Package.PackageTest" />
+			<class name="com.traqade.tests.tasks.TasksTest" />
+			<class name="com.traqade.tests.campaign.CampaignTest" /> -->
+			<class name="com.traqade.tests.leads.LeadsTest" />
+			<!-- <class name="com.traqade.tests.tasks.TasksTest" />
+			<class name="com.traqade.tests.leads.LeadConvertTest" />
+			<class name="com.traqade.tests.leads.QuickSignupTest" />
+		 -->	
+				
+		</classes>
+	</test>
+</suite>
